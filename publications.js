@@ -1,3 +1,9 @@
+
+window.addEventListener('load' , () => {
+    const preload = document.querySelector('.preload');
+    preload.classList.add('preload-finish');
+});
+
 $(document).ready(function(){
 	$(window).scroll(function () {
 			if ($(this).scrollTop() > 50) {
