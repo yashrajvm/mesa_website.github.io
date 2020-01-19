@@ -8,7 +8,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #fff;
+    background-color: #5bc0de;
 }
 
 body {
@@ -29,7 +29,34 @@ body {
  * version 2018.10.30
  * https://codepen.io/jstneg/pen/EVKYZj
  */
-.card{ background-color: #fff; border: 1px solid transparent; border-radius: 6px; }
+/*.cards {
+  display: flex;
+}
+.card {
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 3px 3px 12px 2px rgba(black, 0.6);
+  transition: 0.2s;
+}
+.card:not(:first-child) {
+  margin-left: -2rem;
+}
+.card:not(:last-child):hover,
+.card:not(:last-child):focus-within {
+  transform: translateY(-1rem);
+  ~ .card {
+    transform: translateX(2rem);
+  }
+}*/
+
+.card{ background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    transition: 0.2s;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 12px 2px;
+}
 .card > .card-link{ color: #333; }
 .card > .card-link:hover{  text-decoration: none; }
 .card > .card-link .card-img img{ border-radius: 6px 6px 0 0; }
@@ -122,3 +149,14 @@ body {
 .card-price .buy-now{ text-transform: uppercase; }
 .card-price table .price{ font-size: 1.2em; font-weight: 700; text-align: left; }
 .card-price table .note{ color: #666; font-size: 0.8em; }
+
+.card:not(:first-child) {
+  margin-left: -2rem;
+}
+.card:hover,
+.card:focus-within {
+  transform: translateY(-1rem);
+  /*~ .card {
+    transform: translateX(2rem);
+  }*/
+}
