@@ -1,38 +1,3 @@
-$(document).ready(function() {
-	function bindNavbar() {
-		if ($(window).width() > 768) {
-			$('.navbar-inverse .dropdown').on('mouseover', function(){
-				$('.dropdown-toggle', this).next('.dropdown-menu').show();
-			}).on('mouseout', function(){
-				$('.dropdown-toggle', this).next('.dropdown-menu').hide();
-			});
-			
-			$('.dropdown-toggle').click(function() {
-				if ($(this).next('.dropdown-menu').is(':visible')) {
-					window.location = $(this).attr('href');
-				}
-			});
-		}
-		else {
-			$('.navbar-inverse .dropdown').off('mouseover').off('mouseout');
-		}
-	}
-	
-	$(window).resize(function() {
-		bindNavbar();
-	});
-	
-	bindNavbar();
-});
-
-// $(window).on('load',function() { //when the document is loaded
-//   $(".loader-wrap").delay(50000).fadeOut("slow"); //fade out preloader. You can add your custom effects here too.
-// });
-
-// function loaderDestroy(){
-// 	document.getElementById("loader").remove();
-// }
-
 $(window).scroll(function() {
   
   // selectors
