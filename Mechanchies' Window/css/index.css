@@ -184,6 +184,9 @@ body {
 .color-red {
   background-color: #F2293A;
 }
+.color-darkblue {
+  background-color: #4492f4;
+}
 
 .panel {
   /* min height incase content is higher than window height */
