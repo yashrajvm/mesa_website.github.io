@@ -13,6 +13,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script>
               $(document).ready(function(){
           $(window).scroll(function () {
@@ -31,6 +33,7 @@
             });
         });
     </script>
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
     <style>
@@ -177,8 +180,8 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="post-entry-1 h-100">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="post-entry-1 h-100 showcase-img1">
                   <a href="#">
                     <img src="images/image1.jpg" alt="Image" class="img-fluid">
                   </a>
@@ -190,8 +193,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="post-entry-1 h-100">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="post-entry-1 h-100 showcase-img2">
                   <a href="#">
                     <img src="images/icon4.png" alt="Image" class="img-fluid" style="width: 225px; height: 225px;">
                   </a>
@@ -204,8 +207,8 @@
                 </div>
               </div>
     
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="post-entry-1 h-100">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="post-entry-1 h-100 showcase-img3">
                   <a href="#">
                     <img src="images/icon6.svg" alt="Image" class="img-fluid" style="width: 225px; height: 225px;">
                   </a>
@@ -225,11 +228,11 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7">
+          <div class="col-md-7 showcase-left">
             <h2 class="featurette-heading">What is MESA? <span class="text-muted">Mechanical Engineering Students' Association</span></h2>
             <p class="lead">MESA, the Mechanical Engineering Students' Association of IIT Guwahati, aims to play a pivotal role in the development of students as engineers by various out-of-curriculum and extra curricular activities. MESA aims to inculcate among its members an awareness and appreciation of the various disciplines of not just Mechanical Engineering but also other relevant fields. By way of its activities MESA aims to be a platform for all the students of IIT Guwahati in general and particularly of the students of ME department. MESA seeks to be an active organization of the ME department at IITG which promotes their career interests.</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 showcase-right">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 300px;" src="images/building4.PNG" data-holder-rendered="true">
           </div>
         </div>
@@ -237,13 +240,13 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7 order-md-2">
+          <div class="col-md-7 order-md-2 showcase-right">
             <h2 class="featurette-heading">Our objectives <span class="text-muted">There are many</span></h2>
             <p class="lead">To focus on the cutting edge technology and present it to the students in an interesting manner by means of lectures/talk, articles and workshops.
                 <br><br>To organize Seismech – the mechanical engineering fest of IIT Guwahati. <br><br>Providing students of the department with relevant knowledge of other fields, given the inter-disciplinary nature of ME.
             </p>
           </div>
-          <div class="col-md-5 order-md-1">
+          <div class="col-md-5 order-md-1 showcase-left">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/building3.PNG" data-holder-rendered="true" style="width: 500px; height: 500px;">
           </div>
         </div>
@@ -251,11 +254,11 @@
         <hr class="featurette-divider">
 
         <div class="row featurette">
-          <div class="col-md-7">
+          <div class="col-md-7 showcase-left">
             <h2 class="featurette-heading">History <span class="text-muted">and much more</span></h2>
             <p class="lead">Will be updated soon...ciao</p>
           </div>
-          <div class="col-md-5">
+          <div class="col-md-5 showcase-right">
             <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/building7.PNG" data-holder-rendered="true" style="width: 500px; height: 500px;">
           </div>
         </div>
@@ -273,11 +276,47 @@
     <p class="float-right">
         <a id="back-to-top" href="#">Back to top</a>
     </p>
-    <p>
+    <p class="float-left">
         © 2019-2020 MESA, IITG. 
+    </p>
+    <p>
+      
     </p>
 </footer>
 <script src="index.js"></script>
+<script>
+  window.sr = ScrollReveal()
+  sr.reveal(".navbar", {
+    duration: 2000,
+    origin: "bottom"
+  })
+  sr.reveal(".showcase-img1", {
+    duration: 2000,
+    origin: "left",
+    distance: "300px",
+    viewFactor: 0.2
+  })
+  sr.reveal(".showcase-img2", {
+    duration: 2000,
+    origin: "bottom",
+    distance: "300px"
+  })
+  sr.reveal(".showcase-img3", {
+    duration: 2000,
+    origin: "right",
+    distance: "300px"
+  })
+  sr.reveal(".showcase-left", {
+    duration: 2000,
+    origin: "left",
+    distance: "300px"
+  })
+  sr.reveal(".showcase-right", {
+    duration: 2000,
+    origin: "right",
+    distance: "300px"
+  })
+</script>
 </body>
 </html>
 
