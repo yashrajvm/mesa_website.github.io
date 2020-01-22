@@ -21,18 +21,26 @@
         <script src="publications.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <style>
-            .carousel-inner img {
-                width: 100%;
-                height: 100%;
-            }
-        </style>
+          /* Make the image fully responsive */
+          .carousel-inner img {
+              width: 100%;
+              height: 600px;
+          }
+          .navbar-dark{
+            transition: 750ms ease;
+            background-color: transparent !important;
+          }
+          .navbar-dark.scrolled{
+            background-color: #17a2b8 !important;
+          }
+      </style>
     </head>
     <body>
       <div class="preload">
         <span class="loader"><span class="loader-inner"></span></span>
       </div>
       
-      <nav class="navbar navbar-expand-sm  navbar-dark  fixed-top " style="background-color: #2a45bb;">
+      <nav class="navbar navbar-expand-sm  navbar-dark  fixed-top " >
         <a href="index.html" class="navbar-brand"><img src="images/Logo4.png" alt="logo" width="120px" height="30px"></a>
         
         <button class="navbar-toggler">
@@ -271,6 +279,11 @@
             
           </div>
         </footer>
+        <script>
+          $(window).scroll(function(){
+          $('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
+          });
+         </script>
         <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
         <script src="popper.min.js"></script>
