@@ -126,3 +126,18 @@
           width: 50%;
         }
         
+        .head{
+          background-image: url("./publications/publicaton_back.jpg");
+          height: 347px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .headline{
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          font-size: 80px;
+        }
