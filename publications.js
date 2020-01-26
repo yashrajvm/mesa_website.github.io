@@ -1,8 +1,7 @@
-
-window.addEventListener('load' , () => {
-    const preload = document.querySelector('.preload');
-    preload.classList.add('preload-finish');
-});
+$(window).on('load',function() { //when the document is loaded
+	$(".preload").delay(2000).fadeOut("slow"); //fade out preloader
+  });
+  
 
 $(document).ready(function(){
 	$(window).scroll(function () {
