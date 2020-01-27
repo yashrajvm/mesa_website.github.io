@@ -10,8 +10,9 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
-    background-color: #FAEB33;
+    background-color: #4DCF42;
     transition: background-color 1s ease;
+    background-image: -webkit-linear-gradient(150deg, #34ADFF 65%, #4CBFFF 35%);
 }
 
 body {
