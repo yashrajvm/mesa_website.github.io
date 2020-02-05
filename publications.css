@@ -35,7 +35,14 @@
     transform: translateY(180px);
     -webkit-transform: translateY(180px);
     }
-
+    .custom-toggler{
+      background-color: #17a2b8;
+    }
+    .navbar-collapse {
+    
+      background-color:#17a2b8 !important/* here */
+      
+  }
     body, html {
         height: 100%;
         text-align: center;

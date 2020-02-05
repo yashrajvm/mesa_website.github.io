@@ -7,7 +7,14 @@ body, html{
    line-height:1.8em;
    color:#666;
  }
-
+ .custom-toggler{
+  background-color: #17a2b8;
+}
+.navbar-collapse {
+    
+  background-color:#17a2b8 !important/* here */
+  
+}
  #preloader  {
   position: fixed;
   top: 0;
