@@ -14,6 +14,18 @@
     
 }
 
+.h-100{
+  border-top: 2px solid;
+  border-color: rgb(7, 95, 228);
+  box-shadow: rgb(4, 6, 10);
+  padding-top: 15px;
+  margin-bottom: auto;
+}
+.showcase-img1 img{
+  padding-bottom: 5px;
+}
+
+
 .custom-toggler{
   background-color: #17a2b8;
 }
