@@ -135,10 +135,10 @@
         
         .head{
           background-image: url("./publications/publicaton_back.jpg");
-          height: 347px;
-          background-position: center;
+          height: auto;
           background-repeat: no-repeat;
-          background-size: cover;
+          width: 100%;
+          background-size: 100% 100%;
         }
         .headline{
           position: relative;
