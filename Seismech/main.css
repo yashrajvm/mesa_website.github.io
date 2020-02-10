@@ -69,3 +69,14 @@ nav.scroll {
 .text-dark{
     color: darkslategray;
 }
+
+@media (max-width: 768px){
+    .heading{
+      height: 40vh;
+    }
+  }
+  @media (max-width: 992px){
+    #tabmiddle{
+      height: 80vh;
+    }
+  }
