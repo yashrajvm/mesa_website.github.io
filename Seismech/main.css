@@ -72,11 +72,11 @@ nav.scroll {
 
 @media (max-width: 768px){
     .heading{
-      height: 400px;
+      width: 40vh;
     }
   }
   @media (max-width: 992px){
-    #tabmiddle{
-      height: 80vh;
+    .heading{
+        width: 60vh;
     }
   }
