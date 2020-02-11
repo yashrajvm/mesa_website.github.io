@@ -15,6 +15,16 @@ body, html{
   background-color:#17a2b8 !important/* here */
   
 }
+.navbar{
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.navbar-brand{
+  margin-left: 5% !important;
+}
+
  #preloader  {
   position: fixed;
   top: 0;
@@ -161,6 +171,10 @@ animation: loader-inner 2s infinite ease-in;
     width: 50%;
   }
 
+  .events_cover{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
   
 
 

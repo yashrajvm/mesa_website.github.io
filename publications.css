@@ -147,3 +147,27 @@
           -webkit-transform: translateY(-50%);
           -ms-transform: translateY(-50%);
         }
+
+      .text-white{
+          color: white;
+      }
+      
+      .text-dark{
+          color: darkslategray;
+      }
+
+      .heading_text{
+        vertical-align:middle;
+        font-weight: 600;
+        text-align: center;
+        height: 40vh;
+        background-size: contain;
+    }
+
+    .cover_main{
+      background-image: url('./publications/publicaton_back.jpg') !important;   
+  }
+
+  .pub_covers{
+    background-color: #fff !important;
+  }
