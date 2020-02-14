@@ -26,6 +26,10 @@
             padding-bottom: 20%;
     }
 
+     .sports{
+        background-image: url('./img/sports.jfif');
+    }
+
 .bg-dark {
     background-color: rgba(255, 0, 0, 0)!important;
     padding-top: 20px;
