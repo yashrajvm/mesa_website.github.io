@@ -8,7 +8,7 @@
 
 
 
-  .navbar-collapse {
+  .fixed-top {
     
     background-color:#17a2b8 !important/* here */
     
@@ -24,7 +24,29 @@
 .showcase-img1 img{
   padding-bottom: 5px;
 }
-
+.click1 {
+  background-color: rgb(7, 95, 228);
+  border-radius: 15px;
+  padding: auto;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+.click2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 110px;
+}
+.click3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+.click4 {
+  width: 100px;
+  height: 100px;
+  margin-left: 110px;
+}
 
 .custom-toggler{
   background-color: #17a2b8;
