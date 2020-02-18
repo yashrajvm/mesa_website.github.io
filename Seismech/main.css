@@ -27,7 +27,8 @@
     }
 
      .sports{
-        background-image: url('./img/sports.jfif') !important;
+        background-image: url('./img/virat.jpg') !important;
+        height: 70vh;
     }
 
 .bg-dark {
