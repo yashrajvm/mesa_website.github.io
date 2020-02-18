@@ -15,15 +15,7 @@ body, html{
   background-color:#17a2b8 !important/* here */
   
 }
-.navbar{
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
-}
 
-.navbar-brand{
-  margin-left: 5% !important;
-}
 
  #preloader  {
   position: fixed;
@@ -241,7 +233,43 @@ animation: loader-inner 2s infinite ease-in;
  
 
 
-
+  #button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
 
 
 

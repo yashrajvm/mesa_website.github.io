@@ -20,6 +20,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <script src="publications.js"></script>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <style>
           /* Make the image fully responsive */
           .carousel-inner img {
@@ -39,7 +41,7 @@
       <div class="preload">
         <span class="loader"><span class="loader-inner"></span></span>
       </div>
-      
+      <a id="button"></a>
       <nav class="navbar navbar-expand-md  navbar-dark  fixed-top">
         <a href="index.html" class="navbar-brand"><img src="images/Logo4.png" alt="logo" width="120px" height="30px"></a>
         
@@ -278,9 +280,21 @@
           </div>
         </footer>
         <script>
-          $(window).scroll(function(){
-          $('nav').toggleClass('scrolled', $(this).scrollTop() > 200);
-          });
+          var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
          </script>
          
         <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
