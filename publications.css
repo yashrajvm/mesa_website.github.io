@@ -38,7 +38,7 @@
     .custom-toggler{
       background-color: #17a2b8;
     }
-    .fixxed-top {
+    .fixed-top {
     
       background-color:#17a2b8 !important/* here */
       
@@ -138,7 +138,7 @@
           height: 40vh;
           background-repeat: no-repeat;
           width: 100vw;
-          background-size: 100% 100%;
+          background-size: cover;
         }
         .headline{
           position: relative;
