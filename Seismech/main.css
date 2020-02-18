@@ -26,6 +26,11 @@
             padding-bottom: 20%;
     }
 
+     .sports{
+        background-image: url('./img/virat.jpg') !important;
+        height: 70vh;
+    }
+
 .bg-dark {
     background-color: rgba(255, 0, 0, 0)!important;
     padding-top: 20px;
@@ -67,6 +72,33 @@ nav.scroll {
     background-image: url('./img/gear.jpg') !important;   
 }
 
+.highlights_events{
+    background-image: url('./img/1.jpg') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.highlights_workshops{
+    background-image: url('./img/ev.jpeg') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.choose{
+    object-fit: cover;
+    max-width: 85vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+.chooses{
+    background-color: black;
+}
+
 .text-white{
     color: white;
 }
@@ -84,4 +116,9 @@ nav.scroll {
     .heading{
         width: 60vh;
     }
+  }
+
+  .center{
+      text-align: center;
+
   }
