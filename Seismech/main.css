@@ -38,19 +38,18 @@
 ul.nav a:hover { color: rgb(0, 0, 0) !important; }
 
 
-section {padding:10rem;}
+
+
 .bg-primary {background-color:#007aeb;color:#fff;}
 
 nav.unscroll {
     background-color: white;
     color: black;
-    -webkit-box-shadow: 0 8px 6px -6px #999;
-    -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
   }
 
 nav.scroll {
-    background-color: orange;
+    background-color: rgb(255, 123, 0);
+    font-weight:bold;
     color: black;
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
@@ -58,7 +57,16 @@ nav.scroll {
   }
 
 .cover_main{
-    background-image: url('./img/main_gear2.jpg') !important;   
+    background-image: url('./img/main_gear2.jpg') !important;
+    max-height: 70vh;   
+}
+
+.contain-section{padding:10rem !important;}
+
+.contain-section-small{padding:4rem !important;}
+
+.contact{
+    font-size: large;
 }
 
 .heading_text{
