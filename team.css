@@ -5,7 +5,7 @@ body, html {
     text-align: center;
 }
 .team{
-  margin: 75px 0;
+  margin: 10px 0;
 }
 .custom-toggler{
   background-color: #17a2b8;
@@ -18,30 +18,14 @@ body, html {
 main{
   background: url(images/image1_new.jpg);
   background-size: cover;
+  
   margin: 0 auto;
   padding: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
-h1{
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: 2px;
-  padding-bottom: 10px;
-  color: #333333;
-}
-h1::after{
-  content: "";
-  background: #333333;
-  display: block;
-  height: 3px;
-  width: 150px;
-  margin: 10px auto;
-}
 
-.team-area{
-  padding-top: 5%;
-  
-}
+
+
 .single-team{
   background-color: #fff;
   margin-bottom: 10px;
@@ -231,3 +215,46 @@ h1::after{
       visibility: visible;
     }
     
+    .single-team{
+      box-shadow: 5px 5px 5px;
+    }
+    .h1{
+      background-color: #2472cc;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    
+    .bg-image {
+      /* The image used */
+      background-image: url("images/image1_new.jpg");
+      
+      /* Add the blur effect */
+      filter: blur(4px);
+      -webkit-filter: blur(4px);
+      
+      /* Full height */
+      height: 50%; 
+      
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    /* Position text in the middle of the page/image */
+    .bg-text {
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+      color: white;
+      font-weight: bold;
+      border: 3px solid #f1f1f1;
+      position: absolute;
+      top: 27%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 5px;
+      text-align: center;
+    }

@@ -137,9 +137,7 @@
       width: 50%;
     }
 
-    .footer{
-      padding: 25px;
-    }
+    
 
 .carousal-inner img{
   width: 100%;
@@ -180,5 +178,12 @@
   opacity: 1;
   visibility: visible;
 }
+.row1{
+  background-color: rgb(221, 231, 240) ;
+  margin-bottom: 3%;
+  
+}
 
-    
+.post-entry-1{
+  box-shadow: 5px 5px 5px;
+}
