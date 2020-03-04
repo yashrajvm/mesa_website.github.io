@@ -27,7 +27,7 @@
     }
 
     .sports{
-        background-image: url('./img/virat.jpg') !important;
+        background-image: url('./img/saina.webp') !important;
         height: auto;
         max-width: 100%;
     }
@@ -146,6 +146,11 @@ hr.style-hr {
 .team-head{
     margin: 2rem;
 }
+
+.row_footer{
+  padding: 0px;
+  margin: 0px;
+}
 @media (max-width: 768px){
     .heading{
       width: 40vh;
@@ -161,7 +166,10 @@ hr.style-hr {
       text-align: center;
 
   }
-
+ .section_footer{
+   padding-left: 0rem !important;
+   padding-right: 0rem !important;
+ }
 
   .team-area{
     padding-top: 5%;
