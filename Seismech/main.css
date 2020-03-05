@@ -27,7 +27,7 @@
     }
 
     .sports{
-        background-image: url('./img/saina.webp') !important;
+        background-image: url('./img/hackathon.jpg') !important;
         height: auto;
         max-width: 100%;
     }
@@ -243,4 +243,12 @@ hr.style-hr {
   
   }
   
-  
+  .span4 img {
+    margin-right: 0px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
