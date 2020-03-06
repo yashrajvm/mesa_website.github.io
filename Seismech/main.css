@@ -80,7 +80,8 @@ nav.scroll {
     max-height: 80vh;   
 }
 
-.contain-section{padding:8rem !important;}
+.contain-section-large{padding:10rem !important;}
+.contain-section{padding:4rem !important;}
 
 .contain-section-small{padding:2rem !important;}
 
