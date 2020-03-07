@@ -188,3 +188,21 @@
 .post-entry-1{
   box-shadow: 5px 5px 5px;
 }
+
+.my-modal{
+  border: none!important;
+  padding: none!important;
+}
+.modal-body > .img-modal {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.schedule{
+  width: 100%;
+  height: auto;
+}
