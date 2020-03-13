@@ -253,3 +253,17 @@ hr.style-hr {
 .span4 .img-right {
     float: right;
 }
+
+
+.my-modal{
+  border: none!important;
+  padding: none!important;
+}
+.modal-body > .img-modal {
+  
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
